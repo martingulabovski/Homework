@@ -1,0 +1,79 @@
+body{
+    border: 3px solid brown;
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 670px;
+    margin-top: 200px;
+}
+div#first {
+    width:500px;
+    height: 500px;
+    background-color: brown;
+}
+
+div#second {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    float: left;
+    border: 5px solid brown;
+    background-color: white;
+}
+div#third {
+    margin-top: 150px;
+    position: absolute;
+    width: 100px;
+    height: 185px;
+    float: left;
+    border: 5px solid brown;
+    background-color: white;
+}
+div#fourth {
+    margin-top: 345px;
+    position: absolute;
+    width: 100px;
+    height: 147px;
+    
+    border: 5px solid brown;
+    background-color: rgb(22, 142, 182);
+}
+div#fifth {
+    
+    float: right;
+    width: 380px;
+    height: 335px;
+    border: 5px solid brown;
+    background-color: orange;
+}
+div#sixth {
+    float: left;
+    margin-top: 345px;
+    margin-left: 110px;
+    position: absolute;
+    width: 350px;
+    height: 147px;
+    
+    border: 5px solid brown;
+    background-color: white;
+}
+div#seventh {
+    position: absolute;
+    float: right;
+    margin-top: 345px;
+    margin-left: 470px;
+    width: 20px;
+    height: 60px;
+    border: 5px solid brown;
+    background-color: white;
+}
+div#eight {
+    position: absolute;
+    float: right;
+    margin-top: 432px;
+    margin-left: 470px;
+    width: 20px;
+    height: 60px;
+    border: 5px solid brown;
+    background-color: yellow;
+}
