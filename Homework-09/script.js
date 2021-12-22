@@ -40,9 +40,13 @@ function chineseZodiac(year) {
 
     }
 }
+if(isNaN(year)) {
+    document.getElementById('zodiac').textContent= (year + ' is not a valid year genius');
+} else {
+    let zodiac = chineseZodiac(year);
+    document.getElementById('zodiac').textContent= (year +' is the year of the '+ zodiac);
+}
 
-let zodiac = chineseZodiac(year);
-document.getElementById('zodiac').textContent= (year +' is the year of the '+ zodiac);
 
 
 
