@@ -1,10 +1,10 @@
-let sum = [250, 200, 30, 50, 20].reduce(add, 0);
+let sum = [500, 200, 30, 50, 20].reduce(add, 0);
 
 function add(accumulator, a) {
   return accumulator + a;
 };
 
-if (isNaN(sum)) {
+if (typeof sum !== 'number') {
   document.getElementById("sum").textContent =
     " One of the entries is not a number, enter a number please.";
 } else {
