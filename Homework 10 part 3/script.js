@@ -10,6 +10,9 @@ function withdrawlMoney(amount) {
   if (amount > balance) {
     alert("Not enough funds on your account!");
     return false;
+  } else if (isNaN(amount)) {
+    alert("That is not an amount.");
+  
   } else if ((balance = balance - amount)) {
     alert(
       "Successful withdrawal of: US $" +
@@ -17,8 +20,6 @@ function withdrawlMoney(amount) {
         "\nAvailable Balance is: US $" +
         balance
     );
-  } else if (isNaN(amount)) {
-    alert("That is not an amount.");
   }
 }
 
