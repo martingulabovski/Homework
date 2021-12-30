@@ -6,15 +6,8 @@ let prompts = [
 
 
 alert(
-  "My name is " +
-    prompts[0] +
-    ". " +
-    prompts[0] +
-    " is a nice person! " +
-    " Today their mood is " +
-    prompts[1] +
-    ". " +
-    "They were " +
-    prompts[2] +
-    " all day."
+`My name is ${prompts[0]}. 
+${prompts[0]} is a nice person! 
+Today their mood is ${prompts[1]}. 
+They were ${prompts[2]} all day.`
 );
